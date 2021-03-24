@@ -1,0 +1,9 @@
+body {
+  background: url('./assets/coffee-apple.jpg') no-repeat center fixed;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
+  padding: 0 !important;
+  margin: 0 !important;
+}

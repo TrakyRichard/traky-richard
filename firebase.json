@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "build",
-    "site": "traky-richard",
+    "site": "trakyrichardcv",
     "ignore": [
       "firebase.json",
       "**/.*",

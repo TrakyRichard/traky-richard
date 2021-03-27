@@ -34,19 +34,19 @@ const Header = () => {
 
   const classes = useStyles();
   return (
-    <Container className={classes.typeContainer} maxWidth="sm" alignItems="center">
-      <Grid container justify='center'>
+    <Container className={classes.typeContainer} maxWidth="sm">
+      <Grid >
         <Avatar className={classes.avatar} src={avatar} alt="Traky Richard"/>
       </Grid>
-      <Grid container justify="center">
+      <Grid >
       <Typography className={classes.title} variant="h4">
         <Typed strings={["Traky Richard"]} typeSpeed={40}></Typed>
       </Typography>
       </Grid>
       <br />
-      <Grid container justify="center">
+      <Grid >
       <Typography className={classes.subTitle} variant="h4">
-        <Typed strings={["FullStack web developper", "FullStack mobile developper"]} typeSpeed={40} backSpeed={60} loop></Typed>
+        <Typed strings={["FullStack web developper", "FullStack mobile developper"]} typeSpeed={50} backSpeed={60} loop></Typed>
       </Typography>
       </Grid>
       <Grid container justify="center">
